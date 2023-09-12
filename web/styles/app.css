@@ -1,0 +1,47 @@
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#app > .title {
+  color: var(--violet);
+  font-size: 3.4rem;
+}
+
+#app > img {
+  width: 6.4rem;
+}
+
+#app > .subtitle {
+  color: var(--white);
+
+  align-self: flex-start;
+
+  font-size: 2.2rem;
+  margin-top: 6.4rem;
+  user-select: none;
+}
+
+#app > p {
+  width: 51.2rem;
+  color: var(--white);
+
+  align-self: flex-start;
+  text-align: justify;
+
+  font-size: 1.6rem;
+  margin-top: 1.8rem;
+
+  user-select: none;
+}
+
+#app .placeholder {
+  width: 51.2rem;
+  height: 3.2rem;
+  margin-top: 1.8rem;
+
+  color: var(--gray);
+  user-select: none;
+}
