@@ -10,10 +10,6 @@
   font-size: 3.4rem;
 }
 
-#app > img {
-  width: 6.4rem;
-}
-
 #app > .subtitle {
   color: var(--white);
 
